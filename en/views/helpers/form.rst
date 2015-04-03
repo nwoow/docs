@@ -716,13 +716,13 @@ Creating Hidden Inputs
 
 Creates a hidden form input. Example::
 
-    echo $this->Form->hidden('id');
+    echo $this->Form->hidden('d_id', ['value'=>2]);
 
 Will output:
 
 .. code-block:: html
 
-    <input name="id" value="10" type="hidden" />
+    <input name="id" value="2" type="hidden" />
 
 Creating Textareas
 ------------------
